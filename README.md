@@ -4,10 +4,18 @@ This browser extension allows you to easily download galleries from HentaiFox, e
 
 ## Features
 
+![Extension Icon](original.png)
+
 -   **Cross-Browser Support**: Works on both Chrome (Manifest V3) and Firefox (Manifest V2).
 -   **Multiple Download Options**: Download galleries as individual images or as a single zip file.
 -   **Sleek UI**: A modern, dark-themed user interface with a custom scrollbar for a better user experience.
 -   **Single and Multiple Gallery Downloads**: Download a single gallery from its page or select multiple galleries to download from the homepage.
+
+## Screenshots
+
+### Gallery Popup
+
+![Gallery Popup](extension.PNG)
 
 ## Installation
 

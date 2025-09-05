@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HentaiFox Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HentaiFox Downloader</h1>
+        <div id="gallery-list-container">
+            <div id="gallery-list"></div>
+            <button id="download-selected-button" class="btn">Download Selected</button>
+            <div id="download-options-selected" style="display: none;">
+                <button id="download-selected-images-button" class="btn download-option-btn">Download Images</button>
+                <button id="download-selected-zip-button" class="btn download-option-btn">Download Zip</button>
+            </div>
+        </div>
+        <div id="single-download-container" style="display: none;">
+            <p>Ready to download this gallery.</p>
+            <button id="download-single-button" class="btn">Download</button>
+            <div id="download-options-single" style="display: none;">
+                <button id="download-single-images-button" class="btn download-option-btn">Download Images</button>
+                <button id="download-single-zip-button" class="btn download-option-btn">Download Zip</button>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
